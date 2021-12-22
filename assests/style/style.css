@@ -29,16 +29,48 @@
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
+    
   }
   h2 {
-    justify-content: center;
+    
+    justify-content: space-between;
+    flex-direction: row;
     text-align: center;
   }
   
   .profile{
-    justify-content: center;
-    height: 15rem;
+    height: 12rem;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  
+  .contact{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-right: solid white 3px;
+    padding: 2%;
+  }
+
+  .about {
+    font-size: 1.5rem;
+    border-right: solid rgb(2, 2, 85) 3px;
+    color: rgb(2, 2, 85);
+    padding: 2%;
+
+  }
+
+a:hover{
+background-color: rgb(190, 232, 245);
+color: rgb(2, 2, 85);
+border-radius: 10%;
+box-shadow: 0 5px 15px lightcyan;
+  }
+
+  @media screen and (max-width: 500px) {
+    #main {
+      flex-direction: column;
+      flex: 2;
+    }
+  }
