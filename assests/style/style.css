@@ -6,17 +6,23 @@
   font-family: Helvetica, sans-serif;
 }
 
+/* body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+} */
+
 .bar {
   display: flex;
   flex-direction: row;
-  flex: 4;
+  flex: 2;
   justify-content: space-around;
   align-items: center;
   padding: 1.5%;
   background-image: linear-gradient(to bottom right, rgb(2, 2, 85), lightblue);
   color: rgb(231, 225, 225);
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 1.5rem;
 }
 a {
@@ -69,7 +75,7 @@ a {
   display: flex;
   flex-direction: row;
   width: 100%;
-  flex-direction: wrap;
+  flex-direction: nowrap;
   margin-bottom: 20px;
 }
 
@@ -79,24 +85,26 @@ a {
 }
 
 .work {
+  justify-content: space-evenly;
+  margin-left: 15%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-shrink: 3;
-  margin-left: 2%;
+  max-width: 100%;
 }
 
-.coffee {
-  height: 20rem;
-  width: 30rem;
-  opacity: 0.15;
-  flex-shrink: 2;
+.img {
+  height: 12rem;
+  width: 16rem;
+  /* opacity: 0.15; */
+
 }
 
 .card {
   flex-wrap: wrap;
-  margin: 8%;
-  max-width: 100%;
+  margin: 1%;
+  max-width:100%
+
 }
 
 .text {
@@ -113,13 +121,19 @@ a {
   box-shadow: 0 5px 15px lightcyan;
 }
 
-.coffee:hover {
+.img:hover {
   opacity: 1;
+}
+@media screen and (max-width: 300px) {
+  #main {
+    flex-direction: column;
+    flex: 4;
+  }
 }
 @media screen and (max-width: 500px) {
   #main {
     flex-direction: column;
-    flex: 4;
+    flex: 3;
   }
 }
 
