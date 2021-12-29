@@ -1,7 +1,6 @@
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "5px";
-  }
+const navBar = document.getElementById("sideNavEl")
+const  workBtn = document.getElementById("sideWork")
+
+workBtn.addEventListener("click",function(){
+navBar.style.display = "block"
+})
