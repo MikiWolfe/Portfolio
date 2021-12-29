@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background: rgb(241, 236, 236);
+  background-image: url("assests/image/waves.jpg") ;
   font-family: Helvetica, sans-serif;
 }
 
@@ -49,6 +49,7 @@ a {
 }
 
 .profile {
+
   border: linen 8px solid;
   height: 12rem;
   border-radius: 50%;
@@ -63,13 +64,48 @@ a {
   border-right: solid white 3px;
   padding: 2%;
 }
+.example {
+  background-color: transparent;
+  text-align: center;
+  padding-bottom: 1%;
+}
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(70deg, rgb(146, 184, 202), white);
+  padding: 1.5rem;
+  height: 100%;
+  width: 250px;
+  /* position: fixed; */
+  /* z-index: 1; */
+  top: 30%;
+  left: 5%;
+  /* overflow-x: hidden; */
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
-/* .about {
-  font-size: 1.5rem;
-  border-right: solid rgb(2, 2, 85) 3px;
+.sidenav a {
+  padding: 0.75rem;
+  text-decoration: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
   color: rgb(2, 2, 85);
-  padding: 2%;
-} */
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  padding: 0.75rem;
+  background-color: rgb(204, 231, 240);
+  color: rgb(2, 2, 85);
+  border-radius: 10%;
+  box-shadow: 0 5px 15px lightcyan;
+}
+
 
 .row {
   display: flex;
@@ -78,20 +114,23 @@ a {
   flex-direction: nowrap;
   margin-bottom: 20px;
 }
-
+.content {
+  margin-left: 250px;
+  padding: 1px 16px;
+}
 .bio {
   margin: 5%;
   text-align: justify;
   font-size: large;
 }
 
-.work {
+/* .work {
   justify-content: center;
   margin-left: 5%;
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 1;
-}
+} */
 
 .img {
   height: 15rem;
