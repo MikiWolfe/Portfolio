@@ -2,14 +2,15 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-image: url("assests/image/waves.jpg") ;
   font-family: Helvetica, sans-serif;
+
+  /* background-image: url("/assests/image/purple.jpg") ; */
+  
 }
 
 /* body {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  transition: margin-left .5s;
+  padding: 20px;
 } */
 
 .bar {
@@ -68,13 +69,17 @@ a {
   text-align: center;
   padding-bottom: 1%;
 }
+.gear {
+  padding-left: 40%;
+  height: 50px;
+}
 .sidenav {
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(180deg, rgb(146, 184, 202), white);
   padding: 1.5rem;
-  height: 100%;
-  width: 250px;
+  /* height: 100%; */
+  /* width: 250px; */
   display: none;
   /* position: fixed; */
   /* z-index: 1; */
@@ -102,8 +107,8 @@ a {
   padding: 0.75rem;
   background-color: rgb(2, 2, 85);
   color:  rgb(204, 231, 240);
-  border-radius: 5%;
   box-shadow: 0 5px 15px lightcyan;
+  border-radius: 5%;
 }
 
 
@@ -115,8 +120,13 @@ a {
   margin-bottom: 20px;
 }
 
+/* #content {
+   background-image: url("/assests/image/waves.jpg") ;
+opacity: 0.2; 
+} */
 
 .bio {
+
   margin: 5%;
   text-align: justify;
   font-size: large;
@@ -153,19 +163,19 @@ a {
 
 .link:hover {
   padding: 0.75rem;
-  background-color: rgb(204, 231, 240);
-  color: rgb(2, 2, 85);
-  border-radius: 10%;
+  background-color: rgb(2, 2, 85);
+  color:  rgb(204, 231, 240);
+  border-radius: 5px;
   box-shadow: 0 5px 15px lightcyan;
 }
 
 /* .img:hover {
   opacity: 1;
 } */
-@media screen and (max-width: 300px) {
+
+/* @media screen and (max-width: 300px) {
   #main {
     flex-direction: column;
-    
     flex: 4;
   }
 }
@@ -181,4 +191,4 @@ a {
     flex-direction: column;
     flex: 2;
   }
-}
+} */
