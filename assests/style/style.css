@@ -87,7 +87,7 @@ a {
   left: 5%;
   /* overflow-x: hidden; */
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .sidenav a {
@@ -103,12 +103,13 @@ a {
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+span:hover {
   padding: 0.75rem;
   background-color: rgb(2, 2, 85);
   color:  rgb(204, 231, 240);
   box-shadow: 0 5px 15px lightcyan;
   border-radius: 5%;
+
 }
 
 
@@ -132,13 +133,7 @@ opacity: 0.2;
   font-size: large;
 }
 
-/* .work {
-  justify-content: center;
-  margin-left: 5%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-shrink: 1;
-} */
+
 
 /* .img {
   height: 15rem;
