@@ -58,6 +58,7 @@ a {
   background-color: transparent;
   text-align: center;
   padding-bottom: 1%;
+  color: rgb(2, 2, 85)
 }
 
 .row {
@@ -118,6 +119,13 @@ span:hover {
   box-shadow: 0 5px 15px lightcyan;
 }
 
+.link:target {
+  padding: 0.75rem;
+  background-color: rgb(2, 2, 85);
+  color:  rgb(204, 231, 240);
+  border-radius: 5px;
+  box-shadow: 0 5px 15px lightcyan;
+}
 
 @media screen and (max-width: 300px) {
   #main {
