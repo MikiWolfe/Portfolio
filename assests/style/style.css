@@ -132,12 +132,21 @@ span:hover {
     flex-direction: column;
     flex: 4;
   }
+
+.bio {
+   margin-right: 10%;
+   text-align: center
+  }
 }
 @media screen and (max-width: 500px) {
   #main {
     flex-direction: column;
     flex: 3;
   }
+.bio {
+    margin-right: 10%;
+    text-align: center
+   }
 }
 
 @media screen and (max-width: 700px) {
