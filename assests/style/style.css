@@ -72,39 +72,6 @@ a {
   font-size: large;
 }
 
-/* .sidenav {
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(180deg, rgb(146, 184, 202), white);
-  padding: 1.5rem;
-  display: none;
-  top: 30%;
-  left: 5%;
-  transition: 0.5s;
-  padding-top: 30px;
-}
-
-.sidenav a {
-  padding: 1rem;
-  text-decoration: none;
-  background-color: transparent;
-  text-align: center;
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(2, 2, 85);
-  display: block;
-  transition: 0.3s;
-}
-
-span:hover {
-  padding: 0.75rem;
-  background-color: rgb(2, 2, 85);
-  color:  rgb(204, 231, 240);
-  box-shadow: 0 5px 15px lightcyan;
-  border-radius: 5%;
-
-} */
 section {
   display: flex;
   flex-direction: row;
@@ -180,11 +147,13 @@ section {
 }
 
 .card-img {
+  opacity: 0.2;
   height: 12rem;
   width: 18rem;
 }
 .card-img:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  opacity: 1;
 }
 
 .link:hover {
