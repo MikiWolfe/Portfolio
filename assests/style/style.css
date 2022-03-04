@@ -63,14 +63,14 @@ a {
   flex-direction: row;
   width: 100%;
   flex-direction: nowrap;
-  margin-bottom: 20px;
 }
 
 .bio {
-  margin: 5%;
+  margin: 4%;
   text-align: justify;
   font-size: large;
 }
+
 
 section {
   display: flex;
